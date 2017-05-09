@@ -1,0 +1,14 @@
+use_frameworks!
+platform :ios, '8.0'
+pod 'Digits'
+pod 'Fabric'
+pod 'Firebase/Auth'
+pod 'DigitsMigrationHelper', :path => '../'
+
+target 'DigitsMigrationHelper_Example' do
+end
+target 'DigitsMigrationHelper_ExampleSwift' do
+end
+target 'DigitsMigrationHelper_Tests' do
+end
+
