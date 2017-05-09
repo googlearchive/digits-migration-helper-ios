@@ -14,6 +14,12 @@
 		10B345B11EBD6AD900B09893 /* Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10B345B01EBD6AD900B09893 /* Example-Info.plist */; };
 		10B345B21EBD6AD900B09893 /* Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10B345B01EBD6AD900B09893 /* Example-Info.plist */; };
 		10B345B41EBD6AE400B09893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B345B31EBD6AE400B09893 /* main.m */; };
+		10C6E6E01EC275F600B388E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C6E6DE1EC275F600B388E2 /* Images.xcassets */; };
+		10C6E6E11EC275F600B388E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C6E6DE1EC275F600B388E2 /* Images.xcassets */; };
+		10C6E6E21EC275F600B388E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C6E6DE1EC275F600B388E2 /* Images.xcassets */; };
+		10C6E6E31EC275F600B388E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C6E6DF1EC275F600B388E2 /* LaunchScreen.xib */; };
+		10C6E6E41EC275F600B388E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C6E6DF1EC275F600B388E2 /* LaunchScreen.xib */; };
+		10C6E6E51EC275F600B388E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10C6E6DF1EC275F600B388E2 /* LaunchScreen.xib */; };
 		10DF0E9F1EBD59D500B3C701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF0E9E1EBD59D500B3C701 /* AppDelegate.swift */; };
 		10DF0EA11EBD59D500B3C701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF0EA01EBD59D500B3C701 /* ViewController.swift */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -44,6 +50,8 @@
 		10B345B01EBD6AD900B09893 /* Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Example-Info.plist"; path = "DigitsMigrationHelper-Example/Example-Info.plist"; sourceTree = SOURCE_ROOT; };
 		10B345B31EBD6AE400B09893 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "DigitsMigrationHelper-Example/main.m"; sourceTree = SOURCE_ROOT; };
 		10B345B51EBD6BDD00B09893 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
+		10C6E6DE1EC275F600B388E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "DigitsMigrationHelper-Example/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		10C6E6DF1EC275F600B388E2 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = "DigitsMigrationHelper-Example/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
 		10DF0E9C1EBD59D500B3C701 /* DigitsMigrationHelper_ExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitsMigrationHelper_ExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DF0E9E1EBD59D500B3C701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10DF0EA01EBD59D500B3C701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +168,8 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				10C6E6DE1EC275F600B388E2 /* Images.xcassets */,
+				10C6E6DF1EC275F600B388E2 /* LaunchScreen.xib */,
 				10B345AC1EBD6ACA00B09893 /* Main.storyboard */,
 				10B345B01EBD6AD900B09893 /* Example-Info.plist */,
 				10B345B31EBD6AE400B09893 /* main.m */,
@@ -264,9 +274,11 @@
 				TargetAttributes = {
 					10DF0E9B1EBD59D500B3C701 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EQHXZ8M8AV;
 						ProvisioningStyle = Automatic;
 					};
 					6003F589195388D20070C39A = {
+						DevelopmentTeam = EQHXZ8M8AV;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -307,6 +319,8 @@
 			files = (
 				10B345B21EBD6AD900B09893 /* Example-Info.plist in Resources */,
 				10B345AF1EBD6ACA00B09893 /* Main.storyboard in Resources */,
+				10C6E6E41EC275F600B388E2 /* LaunchScreen.xib in Resources */,
+				10C6E6E11EC275F600B388E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +330,8 @@
 			files = (
 				10B345B11EBD6AD900B09893 /* Example-Info.plist in Resources */,
 				10B345AE1EBD6ACA00B09893 /* Main.storyboard in Resources */,
+				10C6E6E31EC275F600B388E2 /* LaunchScreen.xib in Resources */,
+				10C6E6E01EC275F600B388E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C6E6E51EC275F600B388E2 /* LaunchScreen.xib in Resources */,
+				10C6E6E21EC275F600B388E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,10 +399,13 @@
 		10DF0EC11EBD59D500B3C701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = EQHXZ8M8AV;
 				INFOPLIST_FILE = "$(SRCROOT)/DigitsMigrationHelper-Example/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -400,12 +421,15 @@
 		10DF0EC21EBD59D500B3C701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = EQHXZ8M8AV;
 				INFOPLIST_FILE = "$(SRCROOT)/DigitsMigrationHelper-Example/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -506,9 +530,11 @@
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = DigitsMigrationHelper_Example.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EQHXZ8M8AV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "$(SRCROOT)/DigitsMigrationHelper-Example/Example-Info.plist";
@@ -522,9 +548,11 @@
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = DigitsMigrationHelper_Example.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EQHXZ8M8AV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "$(SRCROOT)/DigitsMigrationHelper-Example/Example-Info.plist";
