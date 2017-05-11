@@ -85,11 +85,14 @@ Notice that in the above sample code, if the sign-in with Firebase Auth is succe
 
 ### Other Considerations
 
-* When to trigger the conversion logic:
-A common choice is to trigger that in AppDelete's application:didFinishLaunchingWithOptions: method. It's also possible to do that in other places that you feel suitable for your app.
+* When to trigger the conversion logic.
+  A common choice is to trigger that in AppDelete's application:didFinishLaunchingWithOptions: method. It's also possible to do that in other places that you feel suitable for your app.
 
-* Persist the conversion result to avoid triggering it again:
-Once the conversion has been successfully done, your app could choose to remember this fact and avoid triggering the same token retrieval logic again (since it has performance panelty of reading from keychain). You can also make such a decision based on whether an existing Firebase auth session exists for the current app.
+* Persist the conversion result to avoid triggering it again.
+  Once the conversion has been successfully done, your app could choose to remember this fact and avoid triggering the same token retrieval logic again (since it has performance panelty of reading from keychain). You can also make such a decision based on whether an existing Firebase auth session exists for the current app.
+ 
+* What if the token is not found or the token conversion failure.
+  In case the users already logged out of the session or the token has been revoked for various reasons, the getLegacyAuth or signInWithCustomToken call would fail with no positive result. In this case, you can launch your app's normal phone auth UI to have the user to go through the flow to get signed in.
 
 ## Example Project
 
