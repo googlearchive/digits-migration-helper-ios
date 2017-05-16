@@ -15,10 +15,6 @@ https://firebase.google.com/docs/auth/ios/start
 
 ## Installation
 
-### Remove legacy Digits SDK
-
-Remove the pod dependency and remove related code using Digits.
-
 ### Install DigitsMigrationHelper
 
 DigitsMigrationHelper is available through [CocoaPods](http://cocoapods.org). To install
@@ -82,6 +78,10 @@ migrator?.getLegacyAuth { (customSignInToken, session) in
 }
 ```
 Notice that in the above sample code, if the sign-in with Firebase Auth is successful, it triggers clearLegacyAuth method from FIRDigitsMigrator. This is to clean up the Digits session from the app since it has already been converted into a Firebase auth session
+
+### Remove legacy Digits SDK
+
+We recommend  that during your development, first doing the above code change with your existing digits app with Digits SDK still included so that you can repeatedly test the conversion flow by relogging with Digits. Once you are fully done with the development and testing, you can now remove Digits SDK dependency from your newer version of the app to be shipped to end users.
 
 ### Other Considerations
 
