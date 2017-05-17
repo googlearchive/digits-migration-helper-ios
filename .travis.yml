@@ -12,4 +12,4 @@ before_install:
 
 script:
 - set -o pipefail && xcodebuild test -workspace Example/DigitsMigrationHelper.xcworkspace -scheme DigitsMigrationHelper-Example -sdk iphonesimulator10.3 ONLY_ACTIVE_ARCH=YES CODE_SIGNING_REQUIRED=NO | xcpretty
-- pod lib lint DigitsMigrationHelper.podspec
+- pod lib lint DigitsMigrationHelper.podspec --allow-warnings
