@@ -2,7 +2,7 @@
 
 An Objective-C library for migrating Digits sessions to Firebase.
 
-[![CI Status](http://img.shields.io/travis/Erik/DigitsMigrationHelper.svg?style=flat)](https://travis-ci.org/Erik/DigitsMigrationHelper)
+[![Build Status](https://travis-ci.org/firebase/digits-migration-helper-ios.svg?branch=master)](https://travis-ci.org/firebase/digits-migration-helper-ios)
 [![Version](https://img.shields.io/cocoapods/v/DigitsMigrationHelper.svg?style=flat)](http://cocoapods.org/pods/DigitsMigrationHelper)
 [![License](https://img.shields.io/cocoapods/l/DigitsMigrationHelper.svg?style=flat)](http://cocoapods.org/pods/DigitsMigrationHelper)
 [![Platform](https://img.shields.io/cocoapods/p/DigitsMigrationHelper.svg?style=flat)](http://cocoapods.org/pods/DigitsMigrationHelper)
