@@ -9,6 +9,7 @@ podfile: Example/Podfile
 before_install:
  - gem install cocoapods # Since Travis is not always on latest version
  - pod install --project-directory=Example --repo-update
+ - xcrun instruments -w 'iPhone 7 (10.3)' || sleep 15
 
 script:
 - ./test.sh
