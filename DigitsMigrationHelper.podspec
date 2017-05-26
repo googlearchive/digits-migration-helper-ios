@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DigitsMigrationHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A Library for Migrating Digits Sessions to Firebase.'
 
   s.description      = <<-DESC
