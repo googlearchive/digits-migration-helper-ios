@@ -35,8 +35,9 @@
 
   [FIRApp configure];
 
-  [[Digits sharedInstance] startWithConsumerKey:key consumerSecret:secret];
-  //[Fabric with:@[[Digits class]]];
+  if (key && secret) {
+    [[Digits sharedInstance] startWithConsumerKey:key consumerSecret:secret];
+  }
 
   return YES;
 }
