@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>id</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>id</string>
+	<key>CLIENT_ID</key>
+	<string>client_id</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>id</string>
+	<key>API_KEY</key>
+	<string>api_key</string>
+	<key>GCM_SENDER_ID</key>
+	<string>id</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>bundle_id</string>
+	<key>PROJECT_ID</key>
+	<string>project_id</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bucket_id</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:395728172828:ios:d08bf73101f30fd8</string>
+	<key>DATABASE_URL</key>
+	<string>http://google.com</string>
+</dict>
+</plist>

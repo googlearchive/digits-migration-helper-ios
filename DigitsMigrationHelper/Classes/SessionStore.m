@@ -30,6 +30,12 @@ NSString *const FIRDigitsMigratorClearAuthErrorUserIDKey = @"userID";
   self = [super init];
   if (self) {
       _keychain = keychain;
+
+      // Map old archived DGTSession data into new FIRDigitsSession data
+      static dispatch_once_t onceToken = 0;
+      dispatch_once(&onceToken, ^{
+          [NSKeyedUnarchiver setClass:[FIRDigitsSession class] forClassName:@"DGTSession"];
+      });
   }
   return self;
 }

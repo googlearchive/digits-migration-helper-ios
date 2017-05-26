@@ -29,6 +29,7 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		ADAA888C1ED8CEBA00245826 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADAA888B1ED8CEBA00245826 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		6FF607CB1E9452F2009D77D2 /* DigitsMigrationHelper_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DigitsMigrationHelper_Example.entitlements; sourceTree = "<group>"; };
 		8A6978B18D3308AAE0EDE4AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A0C7D1B95C84EBB5AF78CD4 /* DigitsMigrationHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DigitsMigrationHelper.podspec; path = ../DigitsMigrationHelper.podspec; sourceTree = "<group>"; };
+		ADAA888B1ED8CEBA00245826 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F7F4B37E77AA21F4F401CCB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +192,7 @@
 		6003F5B6195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ADAA888B1ED8CEBA00245826 /* GoogleService-Info.plist */,
 				6003F5B7195388D20070C39A /* Tests-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -330,6 +333,7 @@
 			files = (
 				10B345B11EBD6AD900B09893 /* Example-Info.plist in Resources */,
 				10B345AE1EBD6ACA00B09893 /* Main.storyboard in Resources */,
+				ADAA888C1ED8CEBA00245826 /* GoogleService-Info.plist in Resources */,
 				10C6E6E31EC275F600B388E2 /* LaunchScreen.xib in Resources */,
 				10C6E6E01EC275F600B388E2 /* Images.xcassets in Resources */,
 			);
