@@ -17,7 +17,8 @@
 #import "ViewController.h"
 #import <DigitsKit/DigitsKit.h>
 
-@import DigitsMigrationHelper;
+#import <DigitsMigrationHelper/Migrator.h>
+
 @import Firebase;
 
 @interface ViewController ()
@@ -28,6 +29,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+
   DGTAuthenticateButton *authButton;
   authButton = [DGTAuthenticateButton buttonWithAuthenticationCompletion:^(DGTSession *session, NSError *error) {
     if (session.userID) {
