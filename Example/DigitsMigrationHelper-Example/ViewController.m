@@ -18,8 +18,7 @@
 #import <DigitsKit/DigitsKit.h>
 
 #import <DigitsMigrationHelper/Migrator.h>
-
-@import Firebase;
+#import <Firebase/Firebase.h>
 
 @interface ViewController ()
 @property(strong, nonatomic) FIRAuthStateDidChangeListenerHandle handleAuthStateDidChange;
