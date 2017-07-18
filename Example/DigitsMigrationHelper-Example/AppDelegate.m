@@ -18,8 +18,7 @@
 #import <Fabric/Fabric.h>
 #import <DigitsKit/DigitsKit.h>
 
-@import Firebase;
-@import DigitsMigrationHelper;
+#import <Firebase/Firebase.h>
 
 @interface FIRIdentityToolkitRequest : NSObject
 + (void)setHost:(NSString *)host;

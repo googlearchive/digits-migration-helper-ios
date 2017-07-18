@@ -1,3 +1,5 @@
+
+# comment use_frameworks! out if you want to test staic linking of the library
 use_frameworks!
 platform :ios, '8.0'
 pod 'Digits'

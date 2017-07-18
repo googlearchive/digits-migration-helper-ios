@@ -17,7 +17,7 @@
 #import "Session.h"
 #import "Session_Private.h"
 
-@import JWT;
+#import "JWT.h"
 
 
 NSString* const FIRDigitsSessionAuthTokenKey = @"auth_token";

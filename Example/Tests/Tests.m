@@ -15,8 +15,11 @@
 //
 
 @import XCTest;
-@import JWT;
-@import DigitsMigrationHelper;
+
+#import <JWT/JWT.h>
+#import <DigitsMigrationHelper/Migrator.h>
+#import <DigitsMigrationHelper/SessionStore.h>
+#import <DigitsMigrationHelper/Keychain.h>
 
 #include "../../DigitsMigrationHelper/Classes/Session_Private.h"
 
