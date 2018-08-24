@@ -2,6 +2,7 @@
 This repository has been archived and is no longer maintained.
 
 ![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
 # DigitsMigrationHelper
 
 An Objective-C library for migrating Digits sessions to Firebase.
